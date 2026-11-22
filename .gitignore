@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+*.zip
+Starterkit-ICSE-2027/
+data/
+isu_lora_adapter*/
