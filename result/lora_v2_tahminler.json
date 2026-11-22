@@ -1,0 +1,6323 @@
+{
+ "summary": {
+  "exact_match": 0.48846153846153845,
+  "parse_fail": 0,
+  "sec_per_image": 8.0332294760423,
+  "n": 260
+ },
+ "rows": [
+  {
+   "stem": "sample_00751_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00325_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00971_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00375_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00415_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00533_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00725_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00965_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00723_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00958_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00403_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00502_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00353_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00490_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00611_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00396_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00425_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00018_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00150_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00287_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00177_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00418_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00085_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00823_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00998_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00587_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00614_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00891_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00034_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00782_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00539_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00850_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00779_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00210_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00969_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00575_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00189_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00435_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00641_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00241_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00211_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00053_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00800_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_01025_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_01017_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00411_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00467_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00588_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00619_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00231_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00033_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00049_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00184_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00202_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00229_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00289_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00477_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00672_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00720_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00091_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00789_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00192_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00450_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00509_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00392_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00360_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00627_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00369_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00691_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00772_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00606_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00302_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00617_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00709_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00451_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00431_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00548_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00138_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00648_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00817_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_01009_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00926_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00342_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00449_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00330_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00522_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00948_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00482_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00673_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00806_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00005_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00635_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00016_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00193_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00213_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00001_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00038_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00495_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00874_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00328_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00401_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00113_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00837_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00568_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00076_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00898_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00792_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00902_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00260_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00516_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00693_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00631_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00624_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00188_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00840_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00311_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00931_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00221_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00695_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00515_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00559_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00769_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00195_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00485_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00417_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00910_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00247_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00185_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00116_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00873_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00298_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00281_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00933_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00716_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00993_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00864_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00596_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00942_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00056_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00941_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00427_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00004_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00579_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00759_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00121_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00149_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00855_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00198_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00981_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00061_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00883_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00976_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00380_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00386_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00455_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00748_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00805_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00174_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00293_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00066_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00381_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00385_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00856_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00951_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00960_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00264_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00756_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00424_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00676_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00819_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00544_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00921_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00365_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00688_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00524_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00496_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00395_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00657_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00372_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00536_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00904_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00119_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00767_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_01021_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00157_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00680_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00793_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00940_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00707_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00649_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00256_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00702_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00711_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00847_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00678_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00092_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00785_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00297_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00632_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00728_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00316_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00799_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00992_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00899_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00017_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00251_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00329_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00333_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00136_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00088_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00262_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00200_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00144_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00820_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_01014_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00844_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00629_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00923_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00577_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00423_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_01026_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00178_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00955_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00374_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00474_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00354_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00510_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00625_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00808_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00050_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00804_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00889_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00731_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00361_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00173_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00147_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00272_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00994_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00148_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_01008_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00079_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00499_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00835_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00301_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00029_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00922_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00191_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  },
+  {
+   "stem": "sample_00802_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00630_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00443_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00290_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00586_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00743_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00877_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00831_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "codriver_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "codriver_safety_belt": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00327_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00830_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00659_sim",
+   "expected": {
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "NO"
+   },
+   "prediction": {
+    "baby": "NO",
+    "baby_seat": "YES",
+    "driver_phone": "NO",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "YES",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00428_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "passenger_rear_right_safety_belt": "NO",
+    "phone_codriver_seat": "NO",
+    "baby_seat": "YES",
+    "baby": "YES"
+   },
+   "prediction": {
+    "baby": "YES",
+    "baby_seat": "YES",
+    "driver_phone": "YES",
+    "driver_safety_belt": "NO",
+    "passenger_codriver": "NO",
+    "passenger_rear_right_safety_belt": "YES",
+    "passenger_rear_seat_left": "NO",
+    "passenger_rear_seat_right": "YES",
+    "phone_codriver_seat": "NO"
+   }
+  },
+  {
+   "stem": "sample_00064_sim",
+   "expected": {
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES",
+    "baby_seat": "NO"
+   },
+   "prediction": {
+    "baby_seat": "NO",
+    "driver_phone": "YES",
+    "driver_safety_belt": "YES",
+    "passenger_codriver": "NO",
+    "passenger_rear_left_safety_belt": "NO",
+    "passenger_rear_seat_left": "YES",
+    "passenger_rear_seat_right": "NO",
+    "phone_codriver_seat": "YES"
+   }
+  }
+ ]
+}
