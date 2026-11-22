@@ -1,8 +1,0 @@
-__pycache__/
-*.pyc
-.env
-*.zip
-# Büyük dosyalar depoya konmaz
-Starterkit-ICSE-2027/
-data/
-isu_lora_adapter/
